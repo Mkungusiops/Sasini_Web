@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -52,7 +52,6 @@ import {
   Boxes,
   Workflow,
   Filter,
-  Play,
   RefreshCcw,
   Upload,
   Sparkles,
